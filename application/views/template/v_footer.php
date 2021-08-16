@@ -50,5 +50,11 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?= base_url('assets') ?>/dist/js/pages/dashboard.js"></script>
 </body>
-
+<!-- Page specific script -->
+<script>
+    $(function() {
+        //Add text editor
+        $('#compose-textarea').summernote()
+    })
+</script>
 </html>

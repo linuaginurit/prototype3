@@ -5,13 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Compose</h1>
-                </div>
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Compose</li>
-                    </ol>
+                    <h1><?=$title?></h1>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -111,30 +105,7 @@
                                 <input class="form-control" placeholder="Subject:">
                             </div>
                             <div class="form-group">
-                                <textarea id="compose-textarea" class="form-control" style="height: 300px">
-                      <h1><u>Heading Of Message</u></h1>
-                      <h4>Subheading</h4>
-                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
-                        was born and I will give you a complete account of the system, and expound the actual teachings
-                        of the great explorer of the truth, the master-builder of human happiness. No one rejects,
-                        dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know
-                        how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again
-                        is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain,
-                        but because occasionally circumstances occur in which toil and pain can procure him some great
-                        pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise,
-                        except to obtain some advantage from it? But who has any right to find fault with a man who
-                        chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that
-                        produces no resultant pleasure? On the other hand, we denounce with righteous indignation and
-                        dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so
-                        blinded by desire, that they cannot foresee</p>
-                      <ul>
-                        <li>List item one</li>
-                        <li>List item two</li>
-                        <li>List item three</li>
-                        <li>List item four</li>
-                      </ul>
-                      <p>Thank you,</p>
-                      <p>John Doe</p>
+                                <textarea id="compose-textarea" class="form-control" style="height: 300px;width : 300px">
                     </textarea>
                             </div>
                             <div class="form-group">
@@ -164,36 +135,3 @@
     </section>
     <!-- /.content -->
 </div>
-<!-- /.content-wrapper -->
-<footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-        <b>Version</b> 3.1.0
-    </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-</footer>
-
-<!-- Control Sidebar -->
-<aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-</aside>
-<!-- /.control-sidebar -->
-</div>
-<!-- ./wrapper -->
-
-<!-- jQuery -->
-<script src="../../plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.min.js"></script>
-<!-- Summernote -->
-<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
-<!-- Page specific script -->
-<script>
-    $(function() {
-        //Add text editor
-        $('#compose-textarea').summernote()
-    })
-</script>
