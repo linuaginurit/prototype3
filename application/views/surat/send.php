@@ -99,7 +99,7 @@
                         <!-- /.card-header -->
                         <div class="card-body">
                             <div class="form-group">
-                                <input class="form-control" placeholder="To:">
+                                <input class="form-control" value="agung.firdaus@kemenkeu.go.id" placeholder="To:" disabled>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" placeholder="Subject:">
